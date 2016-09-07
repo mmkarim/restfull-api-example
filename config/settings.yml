@@ -1,0 +1,7 @@
+api:
+  name: "Restfull API Exp"
+  current_version: v1
+  base_url:
+    development: http://localhost:3000
+    test: http://localhost:3000
+    production: https://damp-gorge-70863.herokuapp.com
