@@ -1,3 +1,5 @@
+# RESTful API Example [![Build Status](https://travis-ci.org/mmkarim/restfull-api-example.svg?branch=master)](https://travis-ci.org/mmkarim/restfull-api-example)
+
 # Intro
 
 Its a small demonstration of a RESTfull API project on Rails 5. It contains one GET and one POST API. The Post API takes a valid url as form-param, parse the HTML response and store the contents of h1, h2 and h3 and the link, shows error message with invalid url. The GET API takes no param and shows the url and content that has been succesfully stored before. Both Api gives response in JSON format.
