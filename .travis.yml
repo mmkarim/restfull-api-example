@@ -1,0 +1,10 @@
+language: ruby
+rvm:
+  - 2.3.2
+before_script:
+  - cp config/database.yml.travis config/database.yml
+  - psql -c 'create database travis_ci_test;' -U postgres
+dist: trusty
+script:
+  - bundle exec rake db:migrate RAILS_ENV=test
+  - bundle exec rspec spec
